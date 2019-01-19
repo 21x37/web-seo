@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Montserrat', sans-serif;
+    text-rendering: optimizeLegibility;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(skyscraper.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.header-text-box {
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    margin: 0;
+    color: #fff;
+    font-size: 400%;
+    font-weight: 100;
+    width: 60%;
+    text-transform: uppercase;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    transition: color 0.2s,
+}
+
+.btn-full {
+    background-color: #2ecc71;
+    color: #fff;
+    margin-right: 15px;
+}
+
+.btn-ghost {
+    border: 1px solid #2ecc71;
+    color: #2ecc71;
+
+}
+
+.btn-ghost:hover,
+.btn-full:hover {
+    color: #fff;
+    background-color: #28b062;
+}
+
+.main-nav {
+    list-style: none;
+}
+
+nav ul {
+    position: relative;
+    left: 250px;
+    float: right;
+    margin-top: 10px;
+    padding-bottom: 5px;
+}
+
+
+.main-nav li {
+    display: inline-block;
+    margin-right: 30px;
+    margin-top: 30px;
+    transition: border-bottom 0.2s;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    text-decoration: none;
+    color: white;
+    float: left;
+
+}
+
+
+.main-nav li:hover {
+    border-bottom: 1px solid #2ecc71;
+}
+
+
+
+.diamond-logo {
+    position: absolute;
+    margin-top: 20px;
+    left: 100px;
+    top: 10px;
+    float: left;
+    height: 100px;
+    color: #fff;
+    font-weight: 300;
+    letter-spacing: -4px;
+}
+

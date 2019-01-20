@@ -9,8 +9,8 @@ html {
     text-rendering: optimizeLegibility;
     font-size: 20px;
     font-weight: 300;
-    overflow: hidden;
 }
+
 
 .row {
     max-width: 1140px;
@@ -22,14 +22,17 @@ header {
     height: 100vh;
     background-position: center;
     background-size: cover;
+
 }
+
+
 
 .header-text-box {
     position: absolute;
-    width: 1140px;
-    top: 50%;
-    left: 65%;
+    top: 60%;
+    left: 50%;
     transform: translate(-50%, -50%);
+    width: 700px;
 }
 
 h1 {
@@ -37,7 +40,6 @@ h1 {
     color: #fff;
     font-size: 400%;
     font-weight: 100;
-    width: 60%;
     text-transform: uppercase;
 }
 
@@ -115,3 +117,44 @@ nav ul {
     letter-spacing: -4px;
 }
 
+/* --------------------------- */
+/* SERVICES */
+/* --------------------------- */
+.services-section {
+    margin-left: 50px;
+}
+
+
+.services-title {
+    text-align: center;
+}
+
+.services-heading {
+    display: inline-block;
+    text-align: center;
+    margin-top: 40px;
+    margin-right: 40px;
+    margin-bottom: 25px;
+    padding: 10px 0;
+    border-bottom: 2px solid #2ecc71;
+    font-size: 200%;
+    font-weight: 300;
+    letter-spacing: 3px;
+}
+
+
+.icon-big {
+    color: #2ecc71;
+    margin-left: 200px;
+    font-size: 250%;
+    padding-bottom: 25px;
+}
+
+.services-section p {
+    width: 420px;
+    margin-left: 50px;
+    line-height: 150%;
+    font-size: 82%;
+    padding-bottom: 30px;
+    
+}

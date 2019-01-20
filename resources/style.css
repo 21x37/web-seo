@@ -9,6 +9,7 @@ html {
     text-rendering: optimizeLegibility;
     font-size: 20px;
     font-weight: 300;
+    overflow: hidden;
 }
 
 .row {
@@ -75,6 +76,7 @@ nav ul {
     position: relative;
     left: 250px;
     float: right;
+    margin-right: 200px;
     margin-top: 10px;
     padding-bottom: 5px;
 }
@@ -91,7 +93,6 @@ nav ul {
 .main-nav li a:visited {
     text-decoration: none;
     color: white;
-    float: left;
 
 }
 

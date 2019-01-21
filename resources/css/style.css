@@ -18,7 +18,7 @@ html {
 }
 
 header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(skyscraper.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/skyscraper.jpg);
     height: 100vh;
     background-position: center;
     background-size: cover;
@@ -142,6 +142,10 @@ nav ul {
     letter-spacing: 3px;
 }
 
+.social {
+    margin-bottom: 8px;
+}
+
 
 .icon-big {
     color: #2ecc71;
@@ -157,4 +161,22 @@ nav ul {
     font-size: 82%;
     padding-bottom: 30px;
     
+}
+
+/* ---- Testimonials ------*/
+/*
+.testimonials-heading {
+    text-align: center;
+    padding: 20px 0 10px 0;
+    border-bottom: 2px solid #2ecc71;
+    display: inline-block;
+    font-size: 140%;
+    font-weight: 300;
+    position: relative;
+
+}
+*/
+
+.testi {
+    width: 350px;
 }

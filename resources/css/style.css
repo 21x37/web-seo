@@ -9,6 +9,7 @@ html {
     text-rendering: optimizeLegibility;
     font-size: 20px;
     font-weight: 300;
+    color: rgb(211, 211, 211);
 }
 
 
@@ -122,7 +123,8 @@ nav ul {
 /* SERVICES */
 /* --------------------------- */
 .services-section {
-    margin-left: 50px;
+    background-color: rgb(235, 235, 235);
+    color: rgb(66, 66, 66);
 }
 
 
@@ -219,4 +221,22 @@ nav ul {
     border-bottom: 2px solid #2ecc71;
     display: inline-block;
     margin-left: 460px;
+}
+
+/* ----- ANIMATIONS ------ */
+.js--wp-1,
+.js--wp-2,
+.js--wp-3 {
+    opacity: 0;
+    animation-duration: 1.2s;
+}
+
+.js--wp-4 {
+    animation-duration: 1s;
+}
+
+.js--wp-1 .animated,
+.js--wp-2 .animated,
+.js--wp-3 .animated {
+    opacity: 1;
 }

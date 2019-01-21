@@ -18,10 +18,11 @@ html {
 }
 
 header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/skyscraper.jpg);
+    background-image: linear-gradient(#000000b3, rgba(130, 247, 179, 0.7) 500%), url(img/city.jpg);
     height: 100vh;
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
 
 }
 
@@ -177,6 +178,45 @@ nav ul {
 }
 */
 
+.testimonials {
+    background-image: linear-gradient(#000000b3, rgba(0, 0, 0, 0.411) 500%), url(img/chicago.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.testimonials p {
+    color: rgb(241, 239, 239);
+    font-size: 80%;
+    line-height: 145%;
+    width: 90%;
+    margin-bottom: 15px;
+}
+
+.testimonials img{
+    border-radius: 50%;
+    height: 60px;
+    width: auto;
+    margin-top: 20px;
+}
+
 .testi {
     width: 350px;
+}
+
+.testi-name {
+    position: relative;
+    left: 85px;
+    top: -42px;
+}
+
+.testimonials h2 {
+    color: rgb(236, 236, 236);
+    text-align: center;
+    margin: 30px 0;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #2ecc71;
+    display: inline-block;
+    margin-left: 460px;
 }

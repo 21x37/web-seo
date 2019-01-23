@@ -143,6 +143,7 @@ nav ul {
     font-size: 200%;
     font-weight: 300;
     letter-spacing: 3px;
+    text-transform: uppercase;
 }
 
 .social {
@@ -190,6 +191,7 @@ nav ul {
 }
 
 .testimonials p {
+    margin-top: 20px;
     color: rgb(241, 239, 239);
     font-size: 80%;
     line-height: 145%;
@@ -217,43 +219,52 @@ nav ul {
 .testimonials h2 {
     color: rgb(236, 236, 236);
     text-align: center;
-    margin: 30px 0;
+    margin: 40px 0;
     padding-bottom: 10px;
     border-bottom: 2px solid #2ecc71;
     display: inline-block;
-    margin-left: 460px;
+    margin-left: 435px;
+    text-transform: uppercase;
 }
 
 /* ------------ Payment Plans ----------------*/
+
+section.payment {
+    color: rgb(66, 66, 66);
+}
+
 .payment-heading {
     position: absolute;
     right: 690px;
     text-align: center;
     margin-top: 30px;
-    color: rgb(94, 94, 94);
     text-align: center;
     margin: 30px 0;
     padding-bottom: 10px;
     border-bottom: 2px solid #2ecc71;
     display: inline-block;
-    margin-right: 160px;
+    margin-right: 147px;
+    text-transform: uppercase;
+
 }
 
 .card {
     margin-top: 150px;
     padding-top: 40px;
     background-color: rgb(253, 252, 252);
-    color: #000;
     border-radius: 10px;
     padding-bottom: 30px;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.555);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.267);
     width: 30%;
+    margin-bottom: 120px;
 
 }
 
 .card-information p {
+    margin-top: 20px;
     margin-left: 50px;
     width: 80%;
+    line-height: 145%;
 }
 
 .card-price {
